@@ -56,8 +56,6 @@ def sacar_datos_imdb(url):
 
 def call_web(url):
 
-    url = "https://www.filmaffinity.com/en/listtopmovies.php?list_id=360"
-
     response = requests.get(url)
 
     if response.status_code == 200:
