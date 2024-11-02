@@ -26,7 +26,7 @@ def sacar_datos_imdb(url):
         # si no hay datos, saltamos el registro
         try:
             title_element = movie.find_element(By.CLASS_NAME, "ipc-title__text")
-            title = title_element.text
+            title = title_element.text.split(".")[1]
 
             year_element = movie.find_element(By.CLASS_NAME, "cli-title-metadata").find_elements(By.TAG_NAME, "span")[0]
             year = year_element.text
@@ -77,7 +77,7 @@ def sacar_datos_filmaffinity(url):
     for item in lista:
         # si no hay datos, saltamos el registro
         try:
-            title = item.find('div', class_='fs-6 mc-title').get_text(strip=True)
+            title = item.find('a', class_='d-none d-md-inline-block').get_text(strip=True)
             year = item.find('span', class_='mc-year ms-1').get_text(strip=True)
             rating = item.find('div', class_='avg mx-0').get_text(strip=True)
             
