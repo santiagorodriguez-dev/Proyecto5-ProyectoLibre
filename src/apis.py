@@ -20,29 +20,35 @@ def tratar_datos_streaming(datos):
     movies_data_streaming = []
 
     for d in datos:
-       list_plataform = []
-       for s in d['streamingOptions']['es']:            
-            try:
-                list_plataform.index(s['service']['name'])
-            except ValueError:
-                list_plataform.append(s['service']['name'])
+       try:
+            list_plataform = []
+            for s in d['streamingOptions']['es']:            
+                    try:
+                        list_plataform.index(s['service']['name'])
+                    except ValueError:
+                        list_plataform.append(s['service']['name'])
 
-       movies_data_streaming.append({
-                "title": d['title'],
-                "imdbId": d['imdbId'],
-                "releaseYear": d['releaseYear'],
-                "list_plataform": list_plataform
-            })
-       #nos quedamos con el primero que es el que nos interesa.
-       break
+            movies_data_streaming.append({
+                        "title": d['title'],
+                        "imdbId": d['imdbId'],
+                        "releaseYear": d['releaseYear'],
+                        "list_plataform": list_plataform
+                    })
+            #nos quedamos con el primero que es el que nos interesa.
+            break
+       except:
+           pass
    
     return pd.DataFrame(movies_data_streaming)
 
-def get_data_streaming(url, api_key, title):
+def get_data_streaming(url, api_key, df):
+    df_final = pd.DataFrame()
+    for index, row in df.iterrows():
+        datos = call_api_streaming(url, api_key, row['title'])
+        df_temp = tratar_datos_streaming(datos)
+        df_final = pd.concat([df_final,df_temp])
 
-    datos = call_api_streaming(url, api_key, title)
-
-    return tratar_datos_streaming(datos)
+    return df_final.reset_index(drop=True, inplace=True)
 
 def tratar_datos_books(datos):
    
