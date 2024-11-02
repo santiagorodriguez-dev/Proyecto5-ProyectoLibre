@@ -44,6 +44,41 @@ def get_data_streaming(url, api_key, title):
 
     return tratar_datos_streaming(datos)
 
+def tratar_datos_books(datos):
+   
+    books_data = []
+
+    for d in datos:
+       books_data.append({
+                "title": d['name'],
+                "rating": d['rating'],
+                "releaseYear": d['year']
+            })
+       #nos quedamos con el primero que es el que nos interesa.
+       break
+   
+    return pd.DataFrame(books_data)
+
+
+def call_api_books(url, api_key, title):
+
+    url = url + title;
+
+    headers = {
+        "x-rapidapi-key": api_key,
+        "x-rapidapi-host": "hapi-books.p.rapidapi.com"
+    }
+
+    response = requests.get(url, headers=headers)
+
+    return response.json()
+
+def get_data_books(url, api_key, title):
+
+    datos = call_api_books(url, api_key, title)
+
+    return tratar_datos_books(datos)
+
 
     
     
