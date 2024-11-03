@@ -61,7 +61,12 @@ def insert_data_peliculas(conn, cursor, df):
         for index, row in df.iterrows():
                 numero_plataformas_calc = 0
                 try:
-                     numero_plataformas_calc = len(row['list_plataform'])
+                     result = row['list_plataform'].split(",")
+                     contador = 0
+                     for i in result:
+                         contador = contador + 1
+
+                     numero_plataformas_calc = contador
                 except:
                     pass
 
