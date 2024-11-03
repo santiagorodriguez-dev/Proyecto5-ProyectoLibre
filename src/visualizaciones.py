@@ -1,10 +1,18 @@
-import pandas as pd # type: ignore
-import matplotlib.pyplot as plt # type: ignore
-import seaborn as sns # type: ignore
+import pandas as pd  # type: ignore
+import matplotlib.pyplot as plt  # type: ignore
+import seaborn as sns  # type: ignore
 
 
 def visualizar_comparativa_rating(df, web):
+    """
+    Visualiza un gráfico de dispersión que compara el rating de video y el rating de libro
+    para cada película, diferenciando por el título.
 
+    Args:
+        df (DataFrame): DataFrame que contiene información sobre películas, incluyendo
+                        rating de video y rating de libro.
+        web (str): Nombre de la fuente de datos para incluir en el título del gráfico.
+    """
     plt.figure(figsize=(18, 6))
     sns.scatterplot(data=df, x="rating_video", y="rating_libro", hue="title", s=100)
 
@@ -18,7 +26,15 @@ def visualizar_comparativa_rating(df, web):
 
 
 def visualizar_comparativa_plataformas(df, web):
+    """
+    Visualiza un gráfico de barras que muestra la mediana del rating de video en relación
+    con el número de plataformas de streaming.
 
+    Args:
+        df (DataFrame): DataFrame que contiene información sobre el número de plataformas
+                        y rating de video.
+        web (str): Nombre de la fuente de datos para incluir en el título del gráfico.
+    """
     mean_ratings = df.groupby('numero_plataformas')['rating_video'].median().reset_index()
 
     plt.figure(figsize=(8, 5))
@@ -31,8 +47,17 @@ def visualizar_comparativa_plataformas(df, web):
 
     plt.show()
 
-def visualizar_cantidad(df, web):
 
+def visualizar_cantidad(df, web):
+    """
+    Visualiza un gráfico de barras que muestra el número de películas junto con las medianas
+    del rating de video y libro, agrupados por el número de plataformas.
+
+    Args:
+        df (DataFrame): DataFrame que contiene información sobre películas, incluyendo
+                        el número de plataformas y sus ratings.
+        web (str): Nombre de la fuente de datos para incluir en el título del gráfico.
+    """
     grouped_data = df.groupby('numero_plataformas').agg(
         num_peliculas=('title', 'count'),
         mediana_rating_video=('rating_video', 'median'),
