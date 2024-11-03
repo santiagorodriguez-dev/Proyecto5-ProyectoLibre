@@ -1,0 +1,100 @@
+,title,year,rating_x,rating_y,releaseYear_x,imdbId,releaseYear_y,list_plataform
+0,The Godfather,1972,9.0,4.39,1972.0,tt0068646,1972.0,"['Prime Video', 'Netflix']"
+1,The Godfather: Part II,1974,8.9,3.92,0.0,tt0000000,0.0,
+2,The Shawshank Redemption,1994,8.6,4.48,1994.0,tt0111161,1994.0,['Netflix']
+3,Witness for the Prosecution,1957,8.6,4.07,1957.0,tt0051201,1957.0,['Apple TV']
+4,Schindler's List,1993,8.6,4.34,1993.0,tt0108052,1993.0,"['Apple TV', 'Netflix']"
+5,Game of Thrones,2011,8.5,4.44,0.0,tt0000000,0.0,
+6,Psycho,1960,8.4,3.81,1960.0,tt0054215,1960.0,"['Apple TV', 'Prime Video']"
+7,One Flew Over the Cuckoo's Nest,1975,8.3,4.20,1975.0,tt0073486,1975.0,['Apple TV']
+8,The Grapes of Wrath,1940,8.3,4.01,0.0,tt0000000,0.0,
+9,To Kill a Mockingbird,1962,8.3,4.26,1962.0,tt0056592,1962.0,['Prime Video']
+10,Apocalypse Now,1979,8.2,3.72,1979.0,tt0078788,1979.0,['Prime Video']
+11,Rebecca,1940,8.2,4.25,2020.0,tt2235695,2020.0,['Netflix']
+12,Forrest Gump,1994,8.2,4.02,1994.0,tt0109830,1994.0,"['Netflix', 'Prime Video']"
+13,The Lord of the Rings: The Return of the King,2003,8.2,4.62,2003.0,tt0167260,2003.0,"['Apple TV', 'Prime Video', 'Max']"
+14,The Pianist,2002,8.2,4.25,2002.0,tt0253474,2002.0,"['Prime Video', 'Disney+', 'Apple TV']"
+15,The Shining,1980,8.2,4.28,1980.0,tt0081505,1980.0,['Max']
+16,A Clockwork Orange,1971,8.2,really liked it 4.00,0.0,tt0000000,0.0,
+17,The Silence of the Lambs,1991,8.2,4.25,1991.0,tt0102926,1991.0,"['Apple TV', 'Prime Video']"
+18,The Holy Innocents,1984,8.1,3.61,1984.0,tt0088040,1984.0,"['Apple TV', 'Prime Video', 'Netflix']"
+19,Blade Runner,1982,8.1,3.61,0.0,tt0000000,0.0,
+20,Fight Club,1999,8.1,4.18,1999.0,tt0137523,1999.0,"['Netflix', 'Prime Video', 'Disney+']"
+21,Trainspotting,1996,8.1,4.11,1996.0,tt0117951,1996.0,"['Apple TV', 'Prime Video']"
+22,Mystic River,2003,8.0,4.17,2003.0,tt0327056,2003.0,"['Netflix', 'Apple TV']"
+23,The Lord of the Rings: The Fellowship of the Ring,2001,8.0,4.65,2001.0,tt0120737,2001.0,"['Prime Video', 'Apple TV', 'Max']"
+24,The Lord of the Rings: The Two Towers,2002,8.0,4.67,2002.0,tt0167261,2002.0,"['Apple TV', 'Prime Video', 'Max']"
+25,Ben-Hur,1959,7.9,4.03,2016.0,tt2638144,2016.0,"['Prime Video', 'Apple TV']"
+26,Gone with the Wind,1939,7.9,4.31,1939.0,tt0031381,1939.0,['Max']
+27,Barry Lyndon,1975,7.9,3.62,1975.0,tt0072684,1975.0,['Prime Video']
+28,The Green Mile,1999,7.9,4.48,1999.0,tt0120689,1999.0,['Apple TV']
+29,Doctor Zhivago,1965,7.9,4.01,1965.0,tt0059113,1965.0,"['Apple TV', 'Prime Video']"
+30,2001: A Space Odyssey,1968,7.8,4.17,1968.0,tt0062622,1968.0,"['Max', 'Apple TV', 'Prime Video']"
+31,The Leopard,1963,7.8,4.01,1963.0,tt0057091,1963.0,['Pluto TV']
+32,Pride and Prejudice,1995,7.8,4.29,0.0,tt0000000,0.0,
+34,The Name of the Rose,1986,7.8,4.14,1986.0,tt0091605,1986.0,"['Prime Video', 'Netflix']"
+35,In Cold Blood,1967,7.7,4.09,1959.0,tt0052532,1959.0,"['Apple TV', 'Prime Video']"
+36,The Exorcist,1973,7.7,4.20,1973.0,tt0070047,1973.0,"['Max', 'Netflix']"
+37,Breakfast at Tiffany's,1961,7.6,3.85,1961.0,tt0054698,1961.0,"['Apple TV', 'Prime Video']"
+38,Bram Stoker's Dracula,1992,7.6,4.41,0.0,tt0000000,0.0,
+39,Shutter Island,2010,7.6,4.12,2010.0,tt1130884,2010.0,"['Apple TV', 'Prime Video']"
+40,Misery,1990,7.5,4.23,1990.0,tt0100157,1990.0,"['Apple TV', 'Prime Video']"
+41,The Bridges of Madison County,1995,7.5,3.70,0.0,tt0000000,0.0,
+42,Lolita,1962,7.5,3.88,1962.0,tt0056193,1962.0,['Prime Video']
+43,Stand by Me,1986,7.3,3.69,0.0,tt0000000,0.0,
+44,The Notebook,2004,7.3,4.15,2004.0,tt0332280,2004.0,"['Netflix', 'Prime Video']"
+45,Fahrenheit 451,1966,7.3,3.96,2018.0,tt0360556,2018.0,"['Apple TV', 'Max', 'Prime Video']"
+46,Moby Dick,1956,7.3,3.55,1956.0,tt0049513,1956.0,"['Apple TV', 'Prime Video']"
+47,Gone Girl,2014,7.3,4.14,2014.0,tt2267998,2014.0,"['Apple TV', 'Prime Video', 'Disney+']"
+48,The Constant Gardener,2005,7.3,3.82,2005.0,tt0387131,2005.0,"['Prime Video', 'Netflix']"
+49,Interview With the Vampire,1994,7.2,4.02,0.0,tt0000000,0.0,
+50,Dune,2021,7.2,4.28,2021.0,tt1160419,2021.0,"['Netflix', 'Apple TV', 'Prime Video', 'Max']"
+51,The Reader,2008,7.2,3.78,2008.0,tt0976051,2008.0,['Prime Video']
+52,No Country for Old Men,2007,7.2,4.16,2007.0,tt0477348,2007.0,"['Apple TV', 'Prime Video']"
+53,The Hours,2002,7.2,3.92,2002.0,tt0274558,2002.0,"['Prime Video', 'Netflix']"
+54,Les Misérables,2012,7.2,4.21,2012.0,tt1707386,2012.0,"['Apple TV', 'Prime Video']"
+55,The Perks of Being a Wallflower,2012,7.1,4.23,2012.0,tt1659337,2012.0,"['Apple TV', 'Prime Video']"
+58,Sense and Sensibility,1995,7.1,4.09,1995.0,tt0114388,1995.0,['Prime Video']
+59,Jurassic Park,1993,7.1,4.11,1993.0,tt0107290,1993.0,"['Netflix', 'Prime Video']"
+60,The Girl with the Dragon Tattoo,2011,7.0,4.17,2011.0,tt1568346,2011.0,"['Apple TV', 'Prime Video']"
+61,Carrie,1976,7.0,4.21,1976.0,tt0074285,1976.0,['Apple TV']
+62,Murder on the Orient Express,1974,7.0,4.20,2017.0,tt3402236,2017.0,"['Disney+', 'Prime Video', 'Apple TV']"
+63,The Pillars of the Earth,2010,7.0,4.34,0.0,tt0000000,0.0,
+64,Harry Potter and the Deathly Hallows: Part II,2011,7.0,it was amazing 5.00,0.0,tt0000000,0.0,
+65,The Hobbit: An Unexpected Journey,2012,7.0,4.62,2012.0,tt0903624,2012.0,"['Apple TV', 'Prime Video']"
+66,The Boy in the Striped Pajamas,2008,6.9,4.16,0.0,tt0000000,0.0,
+67,Harry Potter and the Prisoner of Azkaban,2004,6.9,4.58,2004.0,tt0304141,2004.0,"['Prime Video', 'Apple TV', 'Max']"
+68,Atonement,2007,6.9,3.94,2007.0,tt0783233,2007.0,"['Prime Video', 'Apple TV']"
+69,The NeverEnding Story,1984,6.9,4.18,1984.0,tt0088323,1984.0,['Prime Video']
+70,Like Water for Chocolate,1992,6.9,3.95,0.0,tt0000000,0.0,
+71,Memoirs of a Geisha,2005,6.9,4.15,0.0,tt0000000,0.0,
+72,The Talented Mr. Ripley,1999,6.8,3.95,1999.0,tt0134119,1999.0,"['Apple TV', 'Prime Video']"
+73,Jane Eyre,2011,6.8,4.15,2011.0,tt1229822,2011.0,"['Apple TV', 'Prime Video']"
+74,Harry Potter and the Sorcerer's Stone,2001,6.8,4.47,0.0,tt0000000,0.0,
+75,Perfume: The Story of a Murderer,2006,6.7,4.04,0.0,tt0000000,0.0,
+76,The Hobbit: The Desolation of Smaug,2013,6.7,4.54,2013.0,tt1170358,2013.0,"['Apple TV', 'Prime Video']"
+77,Millennium: Part 1 - Men Who Hate Women,2009,6.7,0,0.0,tt0000000,0.0,
+78,Harry Potter and the Goblet of Fire,2005,6.6,4.57,2005.0,tt0330373,2005.0,"['Prime Video', 'Apple TV', 'Max']"
+79,Harry Potter and the Deathly Hallows: Part I,2010,6.6,0.00,0.0,tt0000000,0.0,
+80,The Road,2009,6.6,3.99,2009.0,tt0898367,2009.0,['Prime Video']
+81,Charlie and the Chocolate Factory,2005,6.6,4.16,2005.0,tt0367594,2005.0,"['Netflix', 'Apple TV', 'Prime Video']"
+82,The Fault in Our Stars,2014,6.6,4.13,2014.0,tt2582846,2014.0,"['Apple TV', 'Prime Video', 'Disney+', 'Netflix']"
+83,Harry Potter and the Chamber of Secrets,2002,6.5,4.43,2002.0,tt0295297,2002.0,"['Prime Video', 'Max']"
+84,The Mist,2007,6.4,3.94,2007.0,tt0884328,2007.0,"['Apple TV', 'Netflix', 'Prime Video']"
+85,The Hunger Games: Catching Fire,2013,6.4,4.50,2013.0,tt1951264,2013.0,"['Apple TV', 'Prime Video']"
+86,Harry Potter and the Half-Blood Prince,2009,6.4,4.58,2009.0,tt0417741,2009.0,"['Apple TV', 'Prime Video', 'Max']"
+87,1984,1984,6.4,0,0.0,tt0000000,0.0,
+88,Harry Potter and the Order of the Phoenix,2007,6.4,4.50,2007.0,tt0373889,2007.0,"['Apple TV', 'Prime Video', 'Max']"
+89,The Merchant of Venice,2004,6.4,3.78,0.0,tt0000000,0.0,
+90,The Hobbit: The Battle of the Five Armies,2014,6.3,4.64,2014.0,tt2310332,2014.0,"['Prime Video', 'Apple TV']"
+91,The House of the Spirits,1993,6.3,4.28,1993.0,tt0107151,1993.0,['Prime Video']
+92,The Great Gatsby,2013,6.2,3.93,2013.0,tt1343092,2013.0,"['Prime Video', 'Apple TV']"
+93,The Hunger Games,2012,6.2,4.34,2012.0,tt1392170,2012.0,"['Apple TV', 'Netflix']"
+94,Angels & Demons,2009,6.1,3.94,2009.0,tt0808151,2009.0,['Prime Video']
+95,It,1990,5.8,4.14,2017.0,tt1396484,2017.0,"['Prime Video', 'Apple TV', 'Max']"
+96,"The Chronicles of Narnia: The Lion, The Witch and the Wardrobe",2005,5.8,4.46,0.0,tt0000000,0.0,
+97,The Da Vinci Code,2006,5.7,3.92,2006.0,tt0382625,2006.0,['Prime Video']
+98,Divergent,2014,5.5,4.14,2014.0,tt1840309,2014.0,"['Apple TV', 'Netflix', 'Prime Video']"
+99,Twilight,2008,4.8,3.66,2008.0,tt1099212,2008.0,"['Apple TV', 'Disney+', 'Prime Video', 'Netflix']"
+100,The Twilight Saga: Eclipse,2010,4.7,4.23,2010.0,tt1325004,2010.0,"['Disney+', 'Prime Video', 'Netflix']"
+101,The Twilight Saga: New Moon,2009,4.6,4.27,2009.0,tt1259571,2009.0,"['Apple TV', 'Disney+', 'Prime Video', 'Netflix']"

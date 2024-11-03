@@ -1,67 +1,67 @@
 ,title,year,duration,rating_x,votes,rating_y,releaseYear_x,imdbId,releaseYear_y,list_plataform
-0,The Godfather,1972,2h 55m,9.2, 2.1M,4.39,1969,tt0068646,1972.0,"['Prime Video', 'Netflix']"
-1,The Godfather Part II,1974,3h 22m,9.0, 1.4M,3.92,unknown,tt0071562,1974.0,['Prime Video']
-2,The Lord of the Rings: The Return of the King,2003,3h 21m,9.0, 2M,4.62,2003,tt0167260,2003.0,"['Apple TV', 'Prime Video', 'Max']"
-3,The Lord of the Rings: The Fellowship of the Ring,2001,2h 58m,8.9, 2.1M,4.65,2001,tt0120737,2001.0,"['Prime Video', 'Apple TV', 'Max']"
-5,Forrest Gump,1994,2h 22m,8.8, 2.3M,4.02,1986,tt0109830,1994.0,"['Netflix', 'Prime Video']"
-6,The Lord of the Rings: The Two Towers,2002,2h 59m,8.8, 1.8M,4.67,unknown,tt0167261,2002.0,"['Apple TV', 'Prime Video', 'Max']"
-7,Fight Club,1999,2h 19m,8.8, 2.4M,4.18,1996,tt0137523,1999.0,"['Netflix', 'Prime Video', 'Disney+']"
-8,One Flew Over the Cuckoo's Nest,1975,2h 13m,8.7, 1.1M,4.20,1962,tt0073486,1975.0,['Apple TV']
-9,The Silence of the Lambs,1991,1h 58m,8.6, 1.6M,4.25,1988,tt0102926,1991.0,"['Apple TV', 'Prime Video']"
-10,The Green Mile,1999,3h 9m,8.6, 1.4M,4.48,1996,tt0120689,1999.0,['Apple TV']
-11,Psycho,1960,1h 49m,8.5, 735K,3.81,1991,tt0054215,1960.0,"['Apple TV', 'Prime Video']"
-12,Grave of the Fireflies,1988,1h 28m,8.5, 326K,4.06,1967,tt0095327,1988.0,['Netflix']
-13,The Prestige,2006,2h 10m,8.5, 1.5M,3.92,1995,tt0482571,2006.0,['Prime Video']
-14,Harakiri,1962,2h 13m,8.6, 73K,4.22,unknown,tt0056058,1962.0,['Apple TV']
-15,Dune: Part Two,2024,2h 46m,8.5, 537K,4.53,unknown,tt15239678,2024.0,"['Max', 'Prime Video']"
-16,Apocalypse Now,1979,2h 27m,8.4, 724K,3.72,2013,tt0078788,1979.0,['Prime Video']
-17,Paths of Glory,1957,1h 28m,8.4, 218K,4.01,2009,tt0050825,1957.0,['Apple TV']
-18,The Shining,1980,2h 26m,8.4, 1.1M,4.28,1977,tt0081505,1980.0,['Max']
-19,Dr,1964,1h 35m,8.3, 528K,3.83,1886,tt0000000,0.0,
-20,Das Boot,1981,2h 29m,8.4, 269K,4.25,1973,tt0000000,0.0,
-21,High and Low,1963,2h 23m,8.4, 56K,4.05,1838,tt0057565,1963.0,"['Apple TV', 'Prime Video']"
-22,3 Idiots,2009,2h 50m,8.4, 446K,4.27,unknown,tt0000000,0.0,
-23,Once Upon a Time in America,1984,3h 49m,8.3, 385K,3.94,1952,tt0087843,1984.0,['Disney+']
-24,Requiem for a Dream,2000,1h 42m,8.3, 918K,4.11,1978,tt0000000,0.0,
-25,Scarface,1983,2h 50m,8.3, 939K,4.10,2020,tt0000000,0.0,
-26,Double Indemnity,1944,1h 47m,8.3, 171K,4.06,1936,tt0036775,1944.0,['Prime Video']
-27,Vertigo,1958,2h 8m,8.3, 436K,3.94,1994,tt0000000,0.0,
-28,Oppenheimer,2023,3h,8.3, 811K,4.32,2005,tt15398776,2023.0,['Prime Video']
-29,Full Metal Jacket,1987,1h 56m,8.2, 805K,4.05,2005,tt0093058,1987.0,['Prime Video']
-30,A Clockwork Orange,1971,2h 16m,8.2, 895K,really liked it 4.00,1962,tt0000000,0.0,
-31,To Kill a Mockingbird,1962,2h 9m,8.3, 338K,4.26,1960,tt0056592,1962.0,['Prime Video']
-32,Die Hard,1988,2h 12m,8.2, 962K,3.53,1979,tt0095016,1988.0,"['Disney+', 'Prime Video', 'Apple TV']"
-33,Metropolis,1927,2h 33m,8.3, 189K,4.38,2018,tt0000000,0.0,
-34,L,1997,2h 18m,8.2, 630K,4.26,1960,tt0000000,0.0,
-35,Bicycle Thieves,1948,1h 29m,8.3, 179K,3.31,1946,tt0040522,1948.0,['Prime Video']
-36,Shutter Island,2010,2h 18m,8.2, 1.5M,4.12,2003,tt1130884,2010.0,"['Apple TV', 'Prime Video']"
-37,There Will Be Blood,2007,2h 38m,8.2, 654K,4.04,2014,tt0469494,2007.0,['Prime Video']
-38,Jurassic Park,1993,2h 7m,8.2, 1.1M,4.11,1990,tt0107290,1993.0,"['Netflix', 'Prime Video']"
-39,No Country for Old Men,2007,2h 2m,8.2, 1.1M,4.16,2005,tt0477348,2007.0,"['Apple TV', 'Prime Video']"
-40,The Wild Robot,2024,1h 42m,8.3, 60K,4.17,2016,tt0000000,0.0,
-41,The Treasure of the Sierra Madre,1948,2h 6m,8.2, 134K,4.10,1935,tt0040897,1948.0,['Prime Video']
-42,Yojimbo,1961,1h 50m,8.2, 134K,4.15,1987,tt0055630,1961.0,['Prime Video']
-43,Howl's Moving Castle,2004,1h 59m,8.2, 466K,4.29,1986,tt0347149,2004.0,['Netflix']
-44,Gone with the Wind,1939,3h 58m,8.2, 339K,4.31,1936,tt0031381,1939.0,['Max']
-45,The Secret in Their Eyes,2009,2h 9m,8.2, 227K,4.01,2005,tt1305806,2009.0,"['Prime Video', 'Netflix']"
-46,Trainspotting,1996,1h 33m,8.1, 737K,4.11,1993,tt0117951,1996.0,"['Apple TV', 'Prime Video']"
-47,The Bridge on the River Kwai,1957,2h 41m,8.1, 237K,3.95,1952,tt0050212,1957.0,['Prime Video']
-48,Catch Me If You Can,2002,2h 21m,8.1, 1.1M,4.04,1980,tt0264464,2002.0,"['Apple TV', 'Pluto TV', 'Prime Video']"
-49,Harry Potter and the Deathly Hallows: Part 2,2011,2h 10m,8.1, 970K,4.67,2011,tt1201607,2011.0,"['Prime Video', 'Apple TV', 'Max']"
-50,Ben-Hur,1959,3h 32m,8.1, 258K,4.03,1880,tt2638144,2016.0,"['Prime Video', 'Apple TV']"
-51,Barry Lyndon,1975,3h 5m,8.1, 187K,3.62,1844,tt0072684,1975.0,['Prime Video']
-52,Blade Runner,1982,1h 57m,8.1, 838K,3.61,1995,tt0000000,0.0,
-53,Gone Girl,2014,2h 29m,8.1, 1.1M,4.14,2012,tt2267998,2014.0,"['Apple TV', 'Prime Video', 'Disney+']"
-54,Jaws,1975,2h 4m,8.1, 678K,3.95,1974,tt0073195,1975.0,"['Prime Video', 'Apple TV', 'Netflix']"
-55,How to Train Your Dragon,2010,1h 38m,8.1, 819K,3.93,unknown,tt0892769,2010.0,"['Apple TV', 'Prime Video']"
-56,The Wages of Fear,1953,2h 36m,8.1, 68K,3.67,1950,tt0046268,1953.0,['Prime Video']
-57,Room,2015,1h 58m,8.1, 459K,4.08,2010,tt3170832,2015.0,"['Apple TV', 'Prime Video']"
-58,The Best Years of Our Lives,1946,2h 50m,8.1, 72K,0.00,unknown,tt0000000,0.0,
-59,The Exorcist,1973,2h 2m,8.1, 467K,4.20,1971,tt0070047,1973.0,"['Max', 'Netflix']"
-60,The Wizard of Oz,1939,1h 42m,8.1, 436K,really liked it 4.00,1900,tt0032138,1939.0,['Max']
-61,The Handmaiden,2016,2h 25m,8.1, 180K,3.71,2007,tt0000000,0.0,
-62,The Iron Giant,1999,1h 26m,8.1, 235K,3.88,1968,tt0129167,1999.0,['Prime Video']
-63,The Grapes of Wrath,1940,2h 9m,8.1, 102K,4.01,1939,tt0000000,0.0,
-64,Rebecca,1940,2h 10m,8.1, 150K,4.25,1938,tt2235695,2020.0,['Netflix']
-65,The Help,2011,2h 26m,8.1, 502K,4.47,2009,tt1454029,2011.0,"['Apple TV', 'Disney+', 'Prime Video']"
-66,Cool Hand Luke,1967,2h 7m,8.1, 192K,4.14,1965,tt0061512,1967.0,['Prime Video']
+0,The Godfather,1972,2h 55m,9.2, 2.1M,4.39,1972.0,tt0068646,1972.0,"['Prime Video', 'Netflix']"
+1,The Godfather Part II,1974,3h 22m,9.0, 1.4M,3.92,1974.0,tt0071562,1974.0,['Prime Video']
+2,The Lord of the Rings: The Return of the King,2003,3h 21m,9.0, 2M,4.62,2003.0,tt0167260,2003.0,"['Apple TV', 'Prime Video', 'Max']"
+3,The Lord of the Rings: The Fellowship of the Ring,2001,2h 58m,8.9, 2.1M,4.65,2001.0,tt0120737,2001.0,"['Prime Video', 'Apple TV', 'Max']"
+5,Forrest Gump,1994,2h 22m,8.8, 2.3M,4.02,1994.0,tt0109830,1994.0,"['Netflix', 'Prime Video']"
+6,The Lord of the Rings: The Two Towers,2002,2h 59m,8.8, 1.8M,4.67,2002.0,tt0167261,2002.0,"['Apple TV', 'Prime Video', 'Max']"
+7,Fight Club,1999,2h 19m,8.8, 2.4M,4.18,1999.0,tt0137523,1999.0,"['Netflix', 'Prime Video', 'Disney+']"
+8,One Flew Over the Cuckoo's Nest,1975,2h 13m,8.7, 1.1M,4.20,1975.0,tt0073486,1975.0,['Apple TV']
+9,The Silence of the Lambs,1991,1h 58m,8.6, 1.6M,4.25,1991.0,tt0102926,1991.0,"['Apple TV', 'Prime Video']"
+10,The Green Mile,1999,3h 9m,8.6, 1.4M,4.48,1999.0,tt0120689,1999.0,['Apple TV']
+11,Psycho,1960,1h 49m,8.5, 735K,3.81,1960.0,tt0054215,1960.0,"['Apple TV', 'Prime Video']"
+12,Grave of the Fireflies,1988,1h 28m,8.5, 326K,4.06,1988.0,tt0095327,1988.0,['Netflix']
+13,The Prestige,2006,2h 10m,8.5, 1.5M,3.92,2006.0,tt0482571,2006.0,['Prime Video']
+14,Harakiri,1962,2h 13m,8.6, 73K,4.22,1962.0,tt0056058,1962.0,['Apple TV']
+15,Dune: Part Two,2024,2h 46m,8.5, 537K,4.53,2024.0,tt15239678,2024.0,"['Max', 'Prime Video']"
+16,Apocalypse Now,1979,2h 27m,8.4, 724K,3.72,1979.0,tt0078788,1979.0,['Prime Video']
+17,Paths of Glory,1957,1h 28m,8.4, 218K,4.01,1957.0,tt0050825,1957.0,['Apple TV']
+18,The Shining,1980,2h 26m,8.4, 1.1M,4.28,1980.0,tt0081505,1980.0,['Max']
+19,Dr,1964,1h 35m,8.3, 528K,3.83,0.0,tt0000000,0.0,
+20,Das Boot,1981,2h 29m,8.4, 269K,4.25,0.0,tt0000000,0.0,
+21,High and Low,1963,2h 23m,8.4, 56K,4.05,1963.0,tt0057565,1963.0,"['Apple TV', 'Prime Video']"
+22,3 Idiots,2009,2h 50m,8.4, 446K,4.27,0.0,tt0000000,0.0,
+23,Once Upon a Time in America,1984,3h 49m,8.3, 385K,3.94,1984.0,tt0087843,1984.0,['Disney+']
+24,Requiem for a Dream,2000,1h 42m,8.3, 918K,4.11,0.0,tt0000000,0.0,
+25,Scarface,1983,2h 50m,8.3, 939K,4.10,0.0,tt0000000,0.0,
+26,Double Indemnity,1944,1h 47m,8.3, 171K,4.06,1944.0,tt0036775,1944.0,['Prime Video']
+27,Vertigo,1958,2h 8m,8.3, 436K,3.94,0.0,tt0000000,0.0,
+28,Oppenheimer,2023,3h,8.3, 811K,4.32,2023.0,tt15398776,2023.0,['Prime Video']
+29,Full Metal Jacket,1987,1h 56m,8.2, 805K,4.05,1987.0,tt0093058,1987.0,['Prime Video']
+30,A Clockwork Orange,1971,2h 16m,8.2, 895K,really liked it 4.00,0.0,tt0000000,0.0,
+31,To Kill a Mockingbird,1962,2h 9m,8.3, 338K,4.26,1962.0,tt0056592,1962.0,['Prime Video']
+32,Die Hard,1988,2h 12m,8.2, 962K,3.53,1988.0,tt0095016,1988.0,"['Disney+', 'Prime Video', 'Apple TV']"
+33,Metropolis,1927,2h 33m,8.3, 189K,4.38,0.0,tt0000000,0.0,
+34,L,1997,2h 18m,8.2, 630K,4.26,0.0,tt0000000,0.0,
+35,Bicycle Thieves,1948,1h 29m,8.3, 179K,3.31,1948.0,tt0040522,1948.0,['Prime Video']
+36,Shutter Island,2010,2h 18m,8.2, 1.5M,4.12,2010.0,tt1130884,2010.0,"['Apple TV', 'Prime Video']"
+37,There Will Be Blood,2007,2h 38m,8.2, 654K,4.04,2007.0,tt0469494,2007.0,['Prime Video']
+38,Jurassic Park,1993,2h 7m,8.2, 1.1M,4.11,1993.0,tt0107290,1993.0,"['Netflix', 'Prime Video']"
+39,No Country for Old Men,2007,2h 2m,8.2, 1.1M,4.16,2007.0,tt0477348,2007.0,"['Apple TV', 'Prime Video']"
+40,The Wild Robot,2024,1h 42m,8.3, 60K,4.17,0.0,tt0000000,0.0,
+41,The Treasure of the Sierra Madre,1948,2h 6m,8.2, 134K,4.10,1948.0,tt0040897,1948.0,['Prime Video']
+42,Yojimbo,1961,1h 50m,8.2, 134K,4.15,1961.0,tt0055630,1961.0,['Prime Video']
+43,Howl's Moving Castle,2004,1h 59m,8.2, 466K,4.29,2004.0,tt0347149,2004.0,['Netflix']
+44,Gone with the Wind,1939,3h 58m,8.2, 339K,4.31,1939.0,tt0031381,1939.0,['Max']
+45,The Secret in Their Eyes,2009,2h 9m,8.2, 227K,4.01,2009.0,tt1305806,2009.0,"['Prime Video', 'Netflix']"
+46,Trainspotting,1996,1h 33m,8.1, 737K,4.11,1996.0,tt0117951,1996.0,"['Apple TV', 'Prime Video']"
+47,The Bridge on the River Kwai,1957,2h 41m,8.1, 237K,3.95,1957.0,tt0050212,1957.0,['Prime Video']
+48,Catch Me If You Can,2002,2h 21m,8.1, 1.1M,4.04,2002.0,tt0264464,2002.0,"['Apple TV', 'Pluto TV', 'Prime Video']"
+49,Harry Potter and the Deathly Hallows: Part 2,2011,2h 10m,8.1, 970K,4.67,2011.0,tt1201607,2011.0,"['Prime Video', 'Apple TV', 'Max']"
+50,Ben-Hur,1959,3h 32m,8.1, 258K,4.03,2016.0,tt2638144,2016.0,"['Prime Video', 'Apple TV']"
+51,Barry Lyndon,1975,3h 5m,8.1, 187K,3.62,1975.0,tt0072684,1975.0,['Prime Video']
+52,Blade Runner,1982,1h 57m,8.1, 838K,3.61,0.0,tt0000000,0.0,
+53,Gone Girl,2014,2h 29m,8.1, 1.1M,4.14,2014.0,tt2267998,2014.0,"['Apple TV', 'Prime Video', 'Disney+']"
+54,Jaws,1975,2h 4m,8.1, 678K,3.95,1975.0,tt0073195,1975.0,"['Prime Video', 'Apple TV', 'Netflix']"
+55,How to Train Your Dragon,2010,1h 38m,8.1, 819K,3.93,2010.0,tt0892769,2010.0,"['Apple TV', 'Prime Video']"
+56,The Wages of Fear,1953,2h 36m,8.1, 68K,3.67,1953.0,tt0046268,1953.0,['Prime Video']
+57,Room,2015,1h 58m,8.1, 459K,4.08,2015.0,tt3170832,2015.0,"['Apple TV', 'Prime Video']"
+58,The Best Years of Our Lives,1946,2h 50m,8.1, 72K,0.00,0.0,tt0000000,0.0,
+59,The Exorcist,1973,2h 2m,8.1, 467K,4.20,1973.0,tt0070047,1973.0,"['Max', 'Netflix']"
+60,The Wizard of Oz,1939,1h 42m,8.1, 436K,really liked it 4.00,1939.0,tt0032138,1939.0,['Max']
+61,The Handmaiden,2016,2h 25m,8.1, 180K,3.71,0.0,tt0000000,0.0,
+62,The Iron Giant,1999,1h 26m,8.1, 235K,3.88,1999.0,tt0129167,1999.0,['Prime Video']
+63,The Grapes of Wrath,1940,2h 9m,8.1, 102K,4.01,0.0,tt0000000,0.0,
+64,Rebecca,1940,2h 10m,8.1, 150K,4.25,2020.0,tt2235695,2020.0,['Netflix']
+65,The Help,2011,2h 26m,8.1, 502K,4.47,2011.0,tt1454029,2011.0,"['Apple TV', 'Disney+', 'Prime Video']"
+66,Cool Hand Luke,1967,2h 7m,8.1, 192K,4.14,1967.0,tt0061512,1967.0,['Prime Video']
