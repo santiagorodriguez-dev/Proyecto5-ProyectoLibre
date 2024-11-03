@@ -53,16 +53,16 @@ def get_data_streaming(url, api_key, df):
 
     return df_final
 
-def tratar_datos_books(datos):
+def tratar_datos_books(datos, title):
    
     books_data = []
 
     for d in datos:
         try:
             books_data.append({
-                        "title": d['name'],
+                        "title": title,
                         "rating": d['rating'],
-                        "releaseYear": d['year']
+                        "releaseYear": d['publishedYear']
                     })
             #nos quedamos con el primero que es el que nos interesa.
             break
@@ -74,14 +74,14 @@ def tratar_datos_books(datos):
 
 def call_api_books(url, api_key, title):
 
-    url = url + title;
+    querystring = {"keyword":title}
 
     headers = {
         "x-rapidapi-key": api_key,
-        "x-rapidapi-host": "hapi-books.p.rapidapi.com"
+        "x-rapidapi-host": "goodreads12.p.rapidapi.com"
     }
 
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, params=querystring)
 
     return response.json()
 
@@ -90,9 +90,8 @@ def get_data_books(url, api_key, df):
     df_final = pd.DataFrame()
 
     for index, row in df.iterrows():
-        title = row['title'].replace(' ', '+')
-        datos = call_api_books(url, api_key, title)
-        df_temp = tratar_datos_books(datos)
+        datos = call_api_books(url, api_key, row['title'])
+        df_temp = tratar_datos_books(datos, row['title'])
 
         if (df_temp.shape[0] > 0):
             df_final = pd.concat([df_final,df_temp])
