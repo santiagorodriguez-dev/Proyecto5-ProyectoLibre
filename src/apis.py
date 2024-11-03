@@ -58,13 +58,16 @@ def tratar_datos_books(datos):
     books_data = []
 
     for d in datos:
-       books_data.append({
-                "title": d['name'],
-                "rating": d['rating'],
-                "releaseYear": d['year']
-            })
-       #nos quedamos con el primero que es el que nos interesa.
-       break
+        try:
+            books_data.append({
+                        "title": d['name'],
+                        "rating": d['rating'],
+                        "releaseYear": d['year']
+                    })
+            #nos quedamos con el primero que es el que nos interesa.
+            break
+        except:
+            pass
    
     return pd.DataFrame(books_data)
 
@@ -82,11 +85,22 @@ def call_api_books(url, api_key, title):
 
     return response.json()
 
-def get_data_books(url, api_key, title):
+def get_data_books(url, api_key, df):
 
-    datos = call_api_books(url, api_key, title)
+    df_final = pd.DataFrame()
 
-    return tratar_datos_books(datos)
+    for index, row in df.iterrows():
+        title = row['title'].replace(' ', '+')
+        datos = call_api_books(url, api_key, title)
+        df_temp = tratar_datos_books(datos)
+
+        if (df_temp.shape[0] > 0):
+            df_final = pd.concat([df_final,df_temp])
+
+    df_final = df_final.reset_index(drop=True)
+
+    return df_final
+
 
 
     
