@@ -43,12 +43,15 @@ def tratar_datos_streaming(datos):
 
 def get_data_streaming(url, api_key, df):
     df_final = pd.DataFrame()
+
     for index, row in df.iterrows():
         datos = call_api_streaming(url, api_key, row['title'])
         df_temp = tratar_datos_streaming(datos)
         df_final = pd.concat([df_final,df_temp])
 
-    return df_final.reset_index(drop=True, inplace=True)
+    df_final = df_final.reset_index(drop=True)
+
+    return df_final
 
 def tratar_datos_books(datos):
    

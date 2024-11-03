@@ -1,0 +1,95 @@
+,title,imdbId,releaseYear,list_plataform
+0,The Godfather,tt0068646,1972,"['Prime Video', 'Netflix']"
+1,The Godfather Part II,tt0071562,1974,['Prime Video']
+2,The Shawshank Redemption,tt0111161,1994,['Netflix']
+3,Witness for the Prosecution,tt0051201,1957,['Apple TV']
+4,Schindler's List,tt0108052,1993,"['Apple TV', 'Netflix']"
+5,Game of Thrones: The Last Watch,tt10090796,2019,"['Max', 'Prime Video']"
+6,Psycho,tt0054215,1960,"['Apple TV', 'Prime Video']"
+7,One Flew Over the Cuckoo's Nest,tt0073486,1975,['Apple TV']
+8,"Aguirre, the Wrath of God",tt0068182,1972,['Prime Video']
+9,To Kill a Mockingbird,tt0056592,1962,['Prime Video']
+10,Apocalypse Now,tt0078788,1979,['Prime Video']
+11,Rebecca,tt2235695,2020,['Netflix']
+12,Forrest Gump,tt0109830,1994,"['Netflix', 'Prime Video']"
+13,The Lord of the Rings: The Return of the King,tt0167260,2003,"['Apple TV', 'Prime Video', 'Max']"
+14,The Pianist,tt0253474,2002,"['Prime Video', 'Disney+', 'Apple TV']"
+15,The Shining,tt0081505,1980,['Max']
+16,The Silence of the Lambs,tt0102926,1991,"['Apple TV', 'Prime Video']"
+17,The Holy Innocents,tt0088040,1984,"['Apple TV', 'Prime Video', 'Netflix']"
+18,Blade Runner 2049,tt1856101,2017,"['Prime Video', 'Apple TV', 'Netflix']"
+19,Fight Club,tt0137523,1999,"['Netflix', 'Prime Video', 'Disney+']"
+20,Trainspotting,tt0117951,1996,"['Apple TV', 'Prime Video']"
+21,Mystic River,tt0327056,2003,"['Netflix', 'Apple TV']"
+22,The Lord of the Rings: The Fellowship of the Ring,tt0120737,2001,"['Prime Video', 'Apple TV', 'Max']"
+23,The Lord of the Rings: The Two Towers,tt0167261,2002,"['Apple TV', 'Prime Video', 'Max']"
+24,Ben-Hur,tt2638144,2016,"['Prime Video', 'Apple TV']"
+25,Gone with the Wind,tt0031381,1939,['Max']
+26,Barry Lyndon,tt0072684,1975,['Prime Video']
+27,The Green Mile,tt0120689,1999,['Apple TV']
+28,Doctor Zhivago,tt0059113,1965,"['Apple TV', 'Prime Video']"
+29,2001: A Space Odyssey,tt0062622,1968,"['Max', 'Apple TV', 'Prime Video']"
+30,The Leopard,tt0057091,1963,['Pluto TV']
+31,Pride and Prejudice and Zombies,tt1374989,2016,"['Apple TV', 'Prime Video']"
+32,The Name of the Rose,tt0091605,1986,"['Prime Video', 'Netflix']"
+33,In Cold Blood,tt0052532,1959,"['Apple TV', 'Prime Video']"
+34,The Exorcist,tt0070047,1973,"['Max', 'Netflix']"
+35,Breakfast at Tiffany's,tt0054698,1961,"['Apple TV', 'Prime Video']"
+36,Shadow Builder,tt0117611,1998,['Prime Video']
+37,Shutter Island,tt1130884,2010,"['Apple TV', 'Prime Video']"
+38,Misery,tt0100157,1990,"['Apple TV', 'Prime Video']"
+39,Lolita,tt0056193,1962,['Prime Video']
+40,Stand by Me Doraemon,tt3331846,2014,['Netflix']
+41,The Notebook,tt0332280,2004,"['Netflix', 'Prime Video']"
+42,Fahrenheit 451,tt0360556,2018,"['Apple TV', 'Max', 'Prime Video']"
+43,Moby Dick,tt0049513,1956,"['Apple TV', 'Prime Video']"
+44,Gone Girl,tt2267998,2014,"['Apple TV', 'Prime Video', 'Disney+']"
+45,The Constant Gardener,tt0387131,2005,"['Prime Video', 'Netflix']"
+46,Interview with the Vampire,tt0110148,1994,"['Apple TV', 'Max', 'Prime Video']"
+47,Dune,tt1160419,2021,"['Netflix', 'Apple TV', 'Prime Video', 'Max']"
+48,The Reader,tt0976051,2008,['Prime Video']
+49,No Country for Old Men,tt0477348,2007,"['Apple TV', 'Prime Video']"
+50,The Hours,tt0274558,2002,"['Prime Video', 'Netflix']"
+51,Les Misérables,tt1707386,2012,"['Apple TV', 'Prime Video']"
+52,The Perks of Being a Wallflower,tt1659337,2012,"['Apple TV', 'Prime Video']"
+53,Pride and Prejudice and Zombies,tt1374989,2016,"['Apple TV', 'Prime Video']"
+54,Sense and Sensibility,tt0114388,1995,['Prime Video']
+55,Jurassic Park,tt0107290,1993,"['Netflix', 'Prime Video']"
+56,The Girl with the Dragon Tattoo,tt1568346,2011,"['Apple TV', 'Prime Video']"
+57,Carrie,tt0074285,1976,['Apple TV']
+58,Murder on the Orient Express,tt3402236,2017,"['Disney+', 'Prime Video', 'Apple TV']"
+59,Journey to the Center of the Earth,tt0373051,2008,['Prime Video']
+60,Harry Potter and the Deathly Hallows: Part 2,tt1201607,2011,"['Prime Video', 'Apple TV', 'Max']"
+61,The Hobbit: An Unexpected Journey,tt0903624,2012,"['Apple TV', 'Prime Video']"
+62,The Boy in the Striped Pyjamas,tt0914798,2008,"['Apple TV', 'Netflix']"
+63,Harry Potter and the Prisoner of Azkaban,tt0304141,2004,"['Prime Video', 'Apple TV', 'Max']"
+64,Atonement,tt0783233,2007,"['Prime Video', 'Apple TV']"
+65,The NeverEnding Story,tt0088323,1984,['Prime Video']
+66,Memoirs of an Invisible Man,tt0104850,1992,['Prime Video']
+67,The Talented Mr. Ripley,tt0134119,1999,"['Apple TV', 'Prime Video']"
+68,Jane Eyre,tt1229822,2011,"['Apple TV', 'Prime Video']"
+69,Harry Potter and the Philosopher's Stone,tt0241527,2001,"['Prime Video', 'Apple TV']"
+70,The Hobbit: The Desolation of Smaug,tt1170358,2013,"['Apple TV', 'Prime Video']"
+71,Harry Potter and the Goblet of Fire,tt0330373,2005,"['Prime Video', 'Apple TV', 'Max']"
+72,Harry Potter and the Deathly Hallows: Part 1,tt0926084,2010,"['Max', 'Apple TV', 'Prime Video']"
+73,The Road,tt0898367,2009,['Prime Video']
+74,Charlie and the Chocolate Factory,tt0367594,2005,"['Netflix', 'Apple TV', 'Prime Video']"
+75,The Fault in Our Stars,tt2582846,2014,"['Apple TV', 'Prime Video', 'Disney+', 'Netflix']"
+76,Harry Potter and the Chamber of Secrets,tt0295297,2002,"['Prime Video', 'Max']"
+77,The Mist,tt0884328,2007,"['Apple TV', 'Netflix', 'Prime Video']"
+78,The Hunger Games: Catching Fire,tt1951264,2013,"['Apple TV', 'Prime Video']"
+79,Harry Potter and the Half-Blood Prince,tt0417741,2009,"['Apple TV', 'Prime Video', 'Max']"
+80,Nineteen Eighty-Four,tt0087803,1984,['Prime Video']
+81,Harry Potter and the Order of the Phoenix,tt0373889,2007,"['Apple TV', 'Prime Video', 'Max']"
+82,The Hobbit: The Battle of the Five Armies,tt2310332,2014,"['Prime Video', 'Apple TV']"
+83,The House of the Spirits,tt0107151,1993,['Prime Video']
+84,The Great Gatsby,tt1343092,2013,"['Prime Video', 'Apple TV']"
+85,The Hunger Games,tt1392170,2012,"['Apple TV', 'Netflix']"
+86,Angels & Demons,tt0808151,2009,['Prime Video']
+87,It,tt1396484,2017,"['Prime Video', 'Apple TV', 'Max']"
+88,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",tt0363771,2005,"['Apple TV', 'Disney+']"
+89,The Da Vinci Code,tt0382625,2006,['Prime Video']
+90,Divergent,tt1840309,2014,"['Apple TV', 'Netflix', 'Prime Video']"
+91,Twilight,tt1099212,2008,"['Apple TV', 'Disney+', 'Prime Video', 'Netflix']"
+92,The Twilight Saga: Eclipse,tt1325004,2010,"['Disney+', 'Prime Video', 'Netflix']"
+93,The Twilight Saga: New Moon,tt1259571,2009,"['Apple TV', 'Disney+', 'Prime Video', 'Netflix']"

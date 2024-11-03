@@ -88,6 +88,12 @@ def sacar_datos_filmaffinity(url):
             })
         except:
             print("Error al capturar sacar_datos_filmaffinity()")
+    
+    df = pd.DataFrame(movies)
 
-    return pd.DataFrame(movies)
+    df = df.sort_values(by=['rating'], ascending=False)
+
+    df = df.reset_index(drop=True)
+
+    return df
     
