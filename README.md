@@ -1,103 +1,77 @@
-# Proyecto Libre: Exploración y Análisis de Datos
+# Análisis comparativo de Rating de peliculas basadas en libros
 
-## Descripción General
+## Fuentes
 
-En este proyecto, tienes la libertad de elegir el tema que más te apasione o despierte tu curiosidad. Tu tarea será desarrollar un análisis de datos sólido utilizando diversas fuentes de datos, visualizaciones y técnicas de procesamiento. Para ello, deberás cumplir con los siguientes requisitos técnicos:
+**www.imdb.com**
 
-- **APIs**: Selecciona al menos **dos APIs** de las cuales extraer datos que enriquezcan tu análisis.
+<div style="text-align: center;">
+  <img src="https://github.com/santiagorodriguez-dev/Proyecto5-ProyectoLibre/blob/main/imagenes/01.PNG" alt="esquema" />
+</div>
 
-- **Scraping Web**: Incluye al menos **dos páginas web** para realizar web scraping y complementar los datos obtenidos de las APIs o viceversa.
+**www.filmaffinity.com**
 
-- **Base de Datos**: Estructura los datos en una base de datos SQL. Sin embargo, si tu análisis incluye datos geoespaciales y planeas realizar geoqueries, tienes la opción de utilizar **MongoDB**.
+<div style="text-align: center;">
+  <img src="https://github.com/santiagorodriguez-dev/Proyecto5-ProyectoLibre/blob/main/imagenes/02.PNG" alt="esquema" />
+</div>
 
-- **Visualización**: Realiza un análisis de datos utilizando visualizaciones en Python, explorando y mostrando patrones relevantes dentro de tu temática.
+## Fases
 
-## Objetivos del Proyecto
+**Scraping de datos**: Extraer información de la web de www.filmaffinity.com y www.imdb.com para cada uno de los top de peliculas.
 
-1. **Integración de Múltiples Fuentes**: Combina APIs y datos de scraping para obtener una vista enriquecida de tu tema elegido.
+**Datos de apis**: Se ha extraido la informacion de libros de https://rapidapi.com/UnitedAPI/api/goodreads12
 
-2. **Base de Datos**: Diseña y estructura los datos en una base de datos adecuada a los requisitos de tu análisis.
+**Datos de apis**: Se ha extraido la informacion de peliculas en plataformas de https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability
 
-3. **Análisis Visual**: Utiliza visualizaciones en Python para comunicar hallazgos clave y responder preguntas de interés sobre el tema seleccionado.
+**Almacenamiento en base de datos**: se crea una base de datos en SQL que almacene la información recolectada de manera estructurada.
 
+**Estructura de BD**: Se han creado dos tablas con los datos de peliculas y webs.
+<div style="text-align: center;">
+  <img src="https://github.com/santiagorodriguez-dev/Proyecto5-ProyectoLibre/blob/main/imagenes/03.PNG" alt="esquema" />
+</div>
 
-## Ejemplo de Proyectos
+### Analisis de datos: Graficos sobre diferentes comparaciones de ratings.
 
-- **Análisis de Tendencias de Consumo**: Cruce de datos entre APIs de productos de moda y reseñas en sitios web de comercio electrónico.
+#### Este gráfico es útil para observar la relación entre los ratings de video y libro para cada película en la plataforma filmaffinity y facilita la detección de patrones o tendencias, como si existen películas que tienen ratings altos o bajos, o si hay discrepancias entre los ratings de video y libro.
 
-- **Clima y Turismo**: Análisis de patrones de turismo en relación con datos climáticos de diferentes regiones.
+<div style="text-align: center;">
+  <img src="https://github.com/santiagorodriguez-dev/Proyecto5-ProyectoLibre/blob/main/imagenes/04.png" alt="esquema" />
+</div>
 
-- **Salud y Nutrición**: Comparación de información entre APIs de alimentos y sitios de recetas o blogs de nutrición.
+#### Este gráfico es útil para observar la relación entre los ratings de video y libro para cada película en la plataforma imdb y facilita la detección de patrones o tendencias, como si existen películas que tienen ratings altos o bajos, o si hay discrepancias entre los ratings de video y libro.
 
+<div style="text-align: center;">
+  <img src="https://github.com/santiagorodriguez-dev/Proyecto5-ProyectoLibre/blob/main/imagenes/05.png" alt="esquema" />
+</div>
 
-## Como Entregar el Proyecto
+#### Este gráfico  muestra la relación entre el número de plataformas en las que están disponibles las películas, el número total de películas por ese número de plataformas y las medianas de los ratings de video y libro sobre la web filmaffinity
 
-La entrega del proyecto se realizará a través de una **issue en GitHub**, trabajando en un repositorio propio en tu cuenta personal. Los pasos que deberás seguir para hacer la entrega del proyecto son:
+<div style="text-align: center;">
+  <img src="https://github.com/santiagorodriguez-dev/Proyecto5-ProyectoLibre/blob/main/imagenes/06.png" alt="esquema" />
+</div>
 
+#### Este gráfico  muestra la relación entre el número de plataformas en las que están disponibles las películas, el número total de películas por ese número de plataformas y las medianas de los ratings de video y libro sobre la web imdb
 
-- **Crear un nuevo repositorio en tu cuenta de GitHub:**
+<div style="text-align: center;">
+  <img src="https://github.com/santiagorodriguez-dev/Proyecto5-ProyectoLibre/blob/main/imagenes/07.png" alt="esquema" />
+</div>
 
-   - Crea un nuevo repositorio llamado `Proyecto5-NombreProyecto`. Este nombre es obligatorio, no podremos llamarlo de otra forma. 
+## Conclusiones Finales:
+   - Con los datos analizados, observamos patrones que basicamente demuestran que en la mayoria de ocasiones el libro es mejor que la pelicula.
 
-   - Configuralo como público. 
+#### Propuestas de Mejora:
+   - Realizar la descarga de datos a lo largo de diferentes fechas, para observar si cambia el patron a lo largo del tiemnpo.
+  
+## Construido con 🛠️
 
+* [Pyhton](https://www.python.org/) - Lenguaje utilizado
+* [Numpy](https://numpy.org/doc/stable/) - Numpy
+* [seaborn](https://seaborn.pydata.org/tutorial.html) - Seaborn
+* [matplotlib](https://matplotlib.org/stable/users/index) - matplotlib
+* [pandas](https://pandas.pydata.org/docs/) - pandas
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - BeautifulSoup
+* [selenium](https://www.selenium.dev/documentation/) - selenium
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE desarrollo
+  
+## Autores ✒️
 
-- **Desarrolla el proyecto:**
-
-   - Implementa el código de los juegos según las especificaciones y guías proporcionadas.
-
-   - Recuerda hacer commits regulares mientras avanzas en el desarrollo:
-
-     ```bash
-     git add .
-     git commit -m "Descripción del avance"
-     git push
-     ```
-
-
-- **Crear una issue en el repositorio original del curso:**
-
-   - Ve al repositorio original del curso y dirígete a la pestaña de **Issues**.
-
-- **Abrir una nueva issue para tu entrega:**
-
-   - Haz clic en **New Issue** y llena los siguientes campos:
-
-     - **Título:** Usa el formato "Entrega Proyecto: ProyectoMineríaDatos - [Tu Nombre]".
-
-     - **Descripción:** En la descripción, incluye:
-
-       - Una breve explicación de tu proyecto.
-
-       - Instrucciones para ejecutar tu código (si aplica).
-
-       - Un enlace a tu repositorio personal donde está alojado el proyecto.
-
-
-## 🚀 Entrega del Proyecto 🚀
-
-**Fecha y hora límite:**
-
-🗓️ **Lunes a las 9:00 AM.**
-
-
-**Nota importante:**
-
-⚠️ **Todos los proyectos que sean entregados o modificados después de la hora límite (lunes a las 9:00 AM) se considerarán como no entregados.** Por favor, asegúrate de completar y enviar tu trabajo a tiempo para evitar problemas.
-
-
-# 🎤 Presentación de Proyectos 🎤
-
-El lunes tendremos las **presentaciones de los proyectos**. La dinámica será la siguiente:
-
-- De forma **aleatoria**, seleccionaremos entre **3 y 5 alumnos** para presentar su proyecto.
-
-- Cada alumno tendrá **5 minutos** para explicar su proyecto y hacer una demo en vivo. Durante este tiempo podrán mostrar cómo funciona su juego y resaltar las características principales.
-
-**Detalles importantes:**
-
-- Es importante que lleguéis puntuales, ya que comenzaremos las presentaciones de inmediato.
-
-- Asegúrate de que tu código esté listo y funcional para la demo.
-
-- Todos debemos estar preparados para presentar, ya que la selección será completamente aleatoria.
+* **Santiago Rodriguez** - [santiagorodriguez-dev](https://github.com/santiagorodriguez-dev)
